@@ -1,0 +1,38 @@
+.board{
+    display: flex;
+    flex-flow:column nowrap;
+    margin: 0;
+}
+.row{
+    display: flex;
+}
+.cell{
+    width: 30px;
+    height: 30px;
+    border:2px #000000 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell a, .cell p{
+    align-self: center;
+}
+
+.back{
+    background-color:lightgray;
+
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+}
+
+.timer p{
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+}
