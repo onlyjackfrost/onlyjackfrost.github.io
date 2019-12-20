@@ -1,0 +1,9 @@
+#head{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 1;
+}
+
+.category{
+    flex-basis: 300px;
+}
