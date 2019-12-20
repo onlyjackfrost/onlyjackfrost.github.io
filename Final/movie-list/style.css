@@ -7,3 +7,18 @@
 .category{
     flex-basis: 300px;
 }
+
+.movieBoard{
+    margin:10px 0;
+}
+
+.movieElement{
+    border:2px lightgray solid 
+}
+
+.tag{
+    background-color: lightblue;
+    padding: 5px;
+    margin:5px;
+    border-radius: 2mm;
+}
