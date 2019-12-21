@@ -1,0 +1,64 @@
+ 
+/* color element css */
+* { margin:0; padding:0; }
+.window{
+    background-color: #919378;
+    width:100vh;
+    height:100vh;
+}
+
+.colorBuilder{
+    padding:10px 0;
+}
+
+.colorTitle{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin:10px;
+}
+
+.colorValue{
+    width: 140px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin:10px;
+}
+
+.R{
+    background-color: red;
+}
+
+.G{
+    background-color: rgb(102, 245, 102);
+}
+
+.B{
+    background-color: blue;
+}
+
+/* slide bar css */
+input[type="range"]{
+    -webkit-appearance: none;
+    /* overflow:hidden;     限定範圍 */
+    width:300px;
+    height:10px;
+    outline : none;      /* 避免點選會有藍線或虛線 */
+    background: rgb(212, 205, 205);
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    position: relative;    /* 設為相對位置，為了前後區塊的絕對位置而設定 */
+    width:30px;
+    height:30px;
+    background:rgb(180, 156, 156);
+    border-radius:50%;
+    transition:.2s;        /* 點選放大時候的漸變時間 */
+}
