@@ -7,10 +7,22 @@
     height:100vh;
 }
 
+.container {
+    width:70%
+}
 .colorBuilder{
     padding:10px 0;
 }
-
+.hex{
+    background-color: rgb(247, 234, 234) ;
+    opacity:0.5;
+    width:100%;
+    height:140px;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 140px;
+}
 .colorTitle{
     width: 70px;
     height: 70px;
@@ -18,7 +30,7 @@
     font-size: 60px;
     font-weight: bolder;
     text-align: center;
-    margin:10px;
+    margin-right:10px;
 }
 
 .colorValue{
@@ -28,7 +40,7 @@
     font-size: 60px;
     font-weight: bolder;
     text-align: center;
-    margin:10px;
+    margin-left:10px;
 }
 
 .R{

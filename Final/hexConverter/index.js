@@ -9,6 +9,7 @@ const greenValue = document.querySelector('.greenValue')
 const blueValue = document.querySelector('.blueValue')
 
 const sliders = document.querySelectorAll('input')
+const hex = document.querySelector('.hex')
 
 
 sliders.forEach((slider)=>{
@@ -28,6 +29,8 @@ const changeColorValue = (target, value)=>{
 const calculateAndSetHexValue = ()=>{
     const [r,g,b] = [redValue.innerHTML, greenValue.innerHTML, blueValue.innerHTML]
     const hexValue = fullColorHex(r,g,b)
+
+    hex.innerHTML = `#${hexValue}`
     return hexValue
 }
 
