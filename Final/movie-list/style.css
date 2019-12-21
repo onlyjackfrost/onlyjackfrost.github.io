@@ -5,6 +5,7 @@
 }
 
 .category{
+    margin: 10px;
     flex-basis: 300px;
 }
 
